@@ -88,9 +88,30 @@
       </div>
       <p class="reading-text teaching-note">Il festival, gli eventi e l’uso delle sedi sono immaginari. Le sedi reali sono utilizzate come riferimento per l’esercitazione; il sito non annuncia un evento del Politecnico.</p>
     </section>
+    <section class="content-section">
+  <p class="eyebrow">Condizioni attuali</p>
+  <h2>Meteo a Torino adesso</h2>
+  <div class="venue-address" aria-live="polite">
+    <p id="meteo-messaggio">Caricamento dei dati meteo…</p>
+    <div id="meteo-dati" hidden>
+      <p>Temperatura: <strong id="meteo-temperatura"></strong></p>
+      <p>Vento: <strong id="meteo-vento"></strong></p>
+      <p>Ora del dato: <strong id="meteo-ora"></strong></p>
+    </div>
+    <p class="reading-text">
+      È il meteo di oggi, non una previsione per le date del festival.
+    </p>
+    <p>
+      Dati meteo:
+      <a href="https://open-meteo.com/">Open-Meteo</a>,
+      licenza CC BY 4.0.
+    </p>
+  </div>
+</section>
   </main>
   <footer class="site-footer"><div class="container"><p>Segnale · Progetto didattico · Festival immaginario</p></div></footer>
   <script src="https://cdn.jsdelivr.net/npm/swiper@14.4.0/swiper-bundle.min.js"></script>
   <script src="galleria.js"></script>
+  <script src="meteo.js"></script>
 </body>
 </html>
